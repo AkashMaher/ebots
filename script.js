@@ -170,7 +170,7 @@ async function init() {
     contract = new web3.eth.Contract(ABI, ADDRESS);
 
     supply = await contract.methods.totalSupply().call();
-    document.getElementById("supply1").textContent = supply;
+    // document.getElementById("supply1").textContent = supply;
     document.getElementById("supply").textContent = supply;
     
 
@@ -179,7 +179,7 @@ async function init() {
     setInterval(async function () {
         supply = await contract.methods.totalSupply().call();
         document.getElementById("supply").textContent = supply;
-        document.getElementById("supply1").textContent = supply;
+        // document.getElementById("supply1").textContent = supply;
     }, 2000);
 
 
