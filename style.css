@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Roboto&display=swap');
+/* 
+body {
+  background-image: url("https://cdn.discordapp.com/attachments/905163070786142228/954782197708099695/unknown.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+} */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 10;
+    /* Sit on top */
+    padding-top: 200px;
+    /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background: rgb(0, 0, 0);
+    /* Fallback color */
+    background: rgba(0, 0, 0, 0.4);
+    /* Black w/ opacity */
+    animation: fadeIn .5s cubic-bezier(0.165, 0.840, 0.440, 1.000) forwards;
+}
+
+/* Modal Content */
+.modal-content {
+    background: rgba(0, 0, 0, 0.75);
+    margin: auto;
+    padding: 40px;
+    border: 1px solid rgb(0, 0, 0);
+    width: 370px;
+    height: 320px;
+    border-radius: 50px;
+    color: rgb(0, 0, 0);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: .4s
+}
+
+@-webkit-keyframes animatetop {
+    from {
+        top: -300px;
+        opacity: 0
+    }
+
+    to {
+        top: 0;
+        opacity: 1
+    }
+}
+
+@keyframes animatetop {
+    from {
+        top: -300px;
+        opacity: 0
+    }
+
+    to {
+        top: 0;
+        opacity: 1
+    }
+}
+
+/* The Close Button */
+.close {
+    color: #bdbdbd;
+    float: right;
+
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: rgb(41, 128, 155);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* .popup-content {
+    font-family: 'Roboto', sans-serif;
+    background: #000000;
+    width: 290px;
+    height: 280px;
+    font-size: 18px;
+    background: rgb(55, 255, 222);
+    opacity: .9;
+    text-align: center;
+    color: white;
+    padding: 20px;
+    border-radius: 50px;
+    border: 2px;
+    position: relative;
+    justify-content: center;
+    z-index: 9;
+} */
+
+
+
+.mint {
+    font-size: 22px;
+    color: rgb(0, 0, 0);
+    border: 2px;
+    background: rgb(25, 144, 212);
+    padding: 10px;
+    width: 250px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.mintt {
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+
+#slider {
+    width: 200px;
+    cursor: pointer;
+}
+
+.slider {
+    text-align: center;
+    padding-top: 35px;
+    padding-bottom: 25px;
+
+}
+
+.slider-count {
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.popup-top-text {
+    font-size: 22px;
+    text-align: center;
+    padding-top: 11px;
+}
+
+.popup-last-text {
+    text-align: center;
+}
+
+.waiting {
+    padding-top: 25px;
+    /* padding-left: 40px;
+    margin-left: 55px; */
+    width: 140px;
+    height: auto;
+    display: none;
+}
+
+.confirmation {
+    font-size: 25px;
+    display: none;
+    text-align: center;
+    padding-left: 10px;
+}
+
+.confirm {
+    text-align: center;
+    font-size: 16px;
+    display: none;
+    padding-left: 10px;
+}
+
+/* .mint-button-1 {
+    font-size: 20px;
+    color: white;
+    border: 2px;
+    background: red;
+    padding: 10px 15px;
+    border-radius: 25px;
+    text-align: right;
+
+} */
+
+.mint-val {
+    text-align: center;
+}
+
+select {
+    display: inline-block;
+    font-size: 17px;
+    text-align: center;
+    padding: 4px 3px 5px 5px;
+    width: 250px;
+    height: 40px;
+    outline: none;
+    color: rgb(0, 0, 0);
+    border: 1px solid #C8BFC4;
+    border-radius: 10px;
+    box-shadow: inset 1px 1px 2px #ddd8dc;
+    background-color: #fff;
+}
+
+.dropdown-list {
+    padding-top: 25px;
+    text-align: center;
+
+}
+
