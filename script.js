@@ -166,7 +166,7 @@ async function init() {
     toastr.options.hideMethod = 'slideUp';
     toastr.options.closeMethod = 'slideUp';
 
-    let web3 = new Web3('https://cloudflare-eth.com/'); //https://mainnet.infura.io/v3/acb841f7dfdc4702a18f96fb9a6f68a6
+    let web3 = new Web3('https://cloudflare-eth.com/'); //
     contract = new web3.eth.Contract(ABI, ADDRESS);
 
     supply = await contract.methods.totalSupply().call();
